@@ -1,5 +1,18 @@
 [
   {
+    "date": "Jul 16, 2021",
+    "title": "🐕 BloggoCase",
+    "subtitle": "The source code for this website. IKR! So Meta!",
+    "url": "https://github.com/mrdivinemaniac/mrdivinemaniac.github.io",
+    "thumbnail": "images/bloggocase.jpg",
+    "tags": [
+      "Projects"
+    ],
+    "links": {
+      "github": "https://github.com/mrdivinemaniac/mrdivinemaniac.github.io"
+    }
+  },
+  {
     "date": "Jun 29, 2021",
     "title": "These HTML Elements Surprised Me Even After Years In Web Development",
     "subtitle": "A look at some uncommon HTML Elements",
