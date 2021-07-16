@@ -1,3 +1,257 @@
 [
-
+  {
+    "date": "Jun 29, 2021",
+    "title": "These HTML Elements Surprised Me Even After Years In Web Development",
+    "subtitle": "A look at some uncommon HTML Elements",
+    "url": "https://levelup.gitconnected.com/these-html-elements-surprised-me-even-after-years-in-web-development-d5ae69ff63ab?sk=d5ebc97b8167dc067ffcd73dd3ec2ddd",
+    "image": "https://miro.medium.com/max/1400/1*ne3XGKkk2lvEcrhwGZ1rSA.jpeg",
+    "tags": ["Software Development", "Web Development"],
+    "links": {
+      "medium": "https://levelup.gitconnected.com/these-html-elements-surprised-me-even-after-years-in-web-development-d5ae69ff63ab?sk=d5ebc97b8167dc067ffcd73dd3ec2ddd"
+    }
+  },
+  {
+    "date": "Jun 24, 2021",
+    "title": "Code Readability or Performance: Which Is More Important?",
+    "subtitle": "Analyze both sides to prioritize accordingly",
+    "url": "https://betterprogramming.pub/code-readability-vs-performance-25a9ca970aca?sk=d8c1f5a3f523e5bb37a77d0a2a37b4bc",
+    "image": "https://miro.medium.com/max/1400/1*MWejmdSOkfRHcIB-Pl2XQQ.jpeg",
+    "tags": ["Software Development"],
+    "links": {
+      "medium": "https://betterprogramming.pub/code-readability-vs-performance-25a9ca970aca?sk=d8c1f5a3f523e5bb37a77d0a2a37b4bc"
+    }
+  },
+  {
+    "date": "Jun 24, 2021",
+    "title": "How I Implemented Realtime Search In React Using Hooks",
+    "subtitle": "An alternative to the classic debouncing implementation",
+    "url": "https://levelup.gitconnected.com/how-i-implemented-realtime-search-in-react-using-hooks-3c28121f8ed9?sk=e400136072ef22ba75cea9f0c16c35b7",
+    "image": "https://miro.medium.com/max/1400/1*DaHg1fyymuG-37YzfZbhFw.jpeg",
+    "tags": ["Web Development", "React"],
+    "links": {
+      "medium": "https://levelup.gitconnected.com/how-i-implemented-realtime-search-in-react-using-hooks-3c28121f8ed9?sk=e400136072ef22ba75cea9f0c16c35b7"
+    }
+  },
+  {
+    "date": "Jun 23, 2021",
+    "title": "How React JSX Works Under The Hood",
+    "subtitle": "Let’s address the quirks and caveats",
+    "url": "https://betterprogramming.pub/how-react-jsx-works-under-the-hood-6b177a8a57e1?sk=a1aa0c3d5b25a98fbcd3afd3535de46a",
+    "image": "https://miro.medium.com/max/1400/1*8MYHrazHy7yf4rWZz9mnbg.png",
+    "tags": ["Web Development", "React"],
+    "links": {
+      "medium": "https://betterprogramming.pub/how-react-jsx-works-under-the-hood-6b177a8a57e1?sk=a1aa0c3d5b25a98fbcd3afd3535de46a"
+    }
+  },
+  {
+    "date": "Apr 13, 2021",
+    "title": "Why React’s useState Isn’t a Good Solution for Derived Values",
+    "subtitle": "A common misuse of useState in React and a better solution",
+    "url": "https://betterprogramming.pub/why-reacts-usestate-isn-t-a-good-solution-for-derived-values-2a8e41b55fe6",
+    "image": "https://miro.medium.com/max/1400/0*a8P4j17Ou4PpDSjJ",
+    "tags": ["Web Development", "React"],
+    "links": {
+      "medium": "https://betterprogramming.pub/why-reacts-usestate-isn-t-a-good-solution-for-derived-values-2a8e41b55fe6"
+    }
+  },
+  {
+    "date": "Mar 17, 2021",
+    "title": "NANO Sheep Abduction",
+    "subtitle": "A transaction visualizer for the NANO cryptocurrency",
+    "url": "https://nano.sheep-abduction.tk",
+    "image": "images/nano-sheep-abduction.png",
+    "tags": ["Projects", "Cryptocurrency"],
+    "links": {
+      "github": "https://github.com/mrdivinemaniac/alien-abduction-nano",
+      "demo": "https://nano.sheep-abduction.tk"
+    }
+  },
+  {
+    "date": "Mar 5, 2021",
+    "title": "Soft Deletion Will Complicate Your Application",
+    "subtitle": "The workarounds and alternatives",
+    "url": "https://levelup.gitconnected.com/approaches-to-retain-deleted-application-data-b8e02e4364b?sk=97c92f201bf59b6b55ee36cc83c96140",
+    "image": "https://miro.medium.com/max/700/0*72ls8oWzFLWsG0IX",
+    "tags": ["Software Development", "Databases"],
+    "links": {
+      "medium": "https://levelup.gitconnected.com/approaches-to-retain-deleted-application-data-b8e02e4364b?sk=97c92f201bf59b6b55ee36cc83c96140"
+    }
+  },
+  {
+    "date": "Feb 17, 2021",
+    "title": "I Asked the FizzBuzz JavaScript Interview Question and the Results Were Surprising",
+    "subtitle": "Most interviewees were left buzzing after a point",
+    "url": "https://betterprogramming.pub/i-asked-the-fizzbuzz-javascript-interview-question-and-the-results-were-surprising-e81f043ba309?sk=a1959ffe9b1f271f0be39640bfb1ceb6",
+    "image": "https://miro.medium.com/max/700/0*QWOJS4FwOOht2nPj",
+    "tags": ["Software Development", "JavaScript"],
+    "links": {
+      "medium": "https://betterprogramming.pub/i-asked-the-fizzbuzz-javascript-interview-question-and-the-results-were-surprising-e81f043ba309?sk=a1959ffe9b1f271f0be39640bfb1ceb6"
+    }
+  },
+  {
+    "date": "Feb 9, 2021",
+    "title": "I Had a Surgery Because of Sitting Too Much",
+    "subtitle": "Here is how it happened",
+    "url": "https://bikashpaneru.medium.com/i-had-a-surgery-because-i-sat-too-much-c4e4ca170470?sk=6524da558509bfddbdb9e3750e845627",
+    "image": "https://miro.medium.com/max/700/0*MR7ihoFgy6Pag8SX",
+    "tags": ["Life"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/i-had-a-surgery-because-i-sat-too-much-c4e4ca170470?sk=6524da558509bfddbdb9e3750e845627"
+    }
+  },
+  {
+    "date": "Feb 3, 2021",
+    "title": "How To Properly Handle Navigation in a React App",
+    "subtitle": "Your app’s navigation might be broken. Here’s how to fix it",
+    "url": "https://betterprogramming.pub/how-to-properly-handle-navigation-in-a-react-app-e99086dd19ec?sk=9535128ec6da4c3db2c5384117e0522d",
+    "image": "https://miro.medium.com/max/700/0*HJOs6IiW6aEw2McX",
+    "tags": ["Web Development", "React", "JavaScript"],
+    "links": {
+      "medium": "https://betterprogramming.pub/how-to-properly-handle-navigation-in-a-react-app-e99086dd19ec?sk=9535128ec6da4c3db2c5384117e0522d"
+    }
+  },
+  {
+    "date": "Jan 26, 2021",
+    "title": "5 Tips To Quickly Tackle Errors in Your Production Code",
+    "subtitle": "Simple ways to build robust software",
+    "url": "https://betterprogramming.pub/5-tips-to-quickly-tackle-errors-in-your-production-code-be4633bf8ed0?sk=f86eb3893805d745236f1983011325f5",
+    "image": "https://miro.medium.com/max/700/0*JBUchEJfJtq7ND4X",
+    "tags": ["Software Development"],
+    "links": {
+      "medium": "https://betterprogramming.pub/5-tips-to-quickly-tackle-errors-in-your-production-code-be4633bf8ed0?sk=f86eb3893805d745236f1983011325f5"
+    }
+  },
+  {
+    "date": "Jan 18, 2021",
+    "title": "The Biggest Cryptocurrency Scam Ever",
+    "subtitle": "What we can learn from it",
+    "url": "https://medium.com/coinmonks/the-biggest-cryptocurrency-scam-ever-451e95821fd5?sk=b9f6c17c1193f5137a897a1e04037fa0",
+    "image": "https://miro.medium.com/max/700/1*GcQAyiQQW_dOtkjM7H39rQ.png",
+    "tags": ["Cryptocurrency"],
+    "links": {
+      "medium": "https://medium.com/coinmonks/the-biggest-cryptocurrency-scam-ever-451e95821fd5?sk=b9f6c17c1193f5137a897a1e04037fa0"
+    }
+  },
+  {
+    "date": "Jan 11, 2021",
+    "title": "How To Write Better Functional Components in React",
+    "subtitle": "5 simple tips for readability and optimization",
+    "url": "https://betterprogramming.pub/how-to-write-better-functional-components-in-react-bc974f777145?sk=e11513c63ad8ed75bed6ff4242821a4a",
+    "image": "https://miro.medium.com/max/700/1*aWK6yDaBe7x5viez2VyeMw.jpeg",
+    "tags": ["Web Development", "React", "JavaScript"],
+    "links": {
+      "medium": "https://betterprogramming.pub/how-to-write-better-functional-components-in-react-bc974f777145?sk=e11513c63ad8ed75bed6ff4242821a4a"
+    }
+  },
+  {
+    "date": "Dec 25, 2020",
+    "title": "Time Zones for Software Developers",
+    "subtitle": "Working with time zones can be hard. Let’s clear things up",
+    "url": "https://betterprogramming.pub/time-zones-for-software-developers-7f21d5a407aa?sk=19fa3ee756c96812d6b5a5b2dc86daf0",
+    "image": "https://miro.medium.com/max/700/0*BSXniCuF-Jge--JF",
+    "tags": ["Software Development"],
+    "links": {
+      "medium": "https://betterprogramming.pub/time-zones-for-software-developers-7f21d5a407aa?sk=19fa3ee756c96812d6b5a5b2dc86daf0"
+    }
+  },
+  {
+    "date": "Dec 9, 2020",
+    "title": "How To Remove useEffect ESLint Warnings in React",
+    "subtitle": "Yup! Without using eslint-disable-line",
+    "url": "https://betterprogramming.pub/why-eslint-hates-your-useeffect-dependencies-react-js-560fcac0b1f?sk=0df70d8f483092fc596245e3c58307b9",
+    "image": "https://miro.medium.com/max/700/0*gZ42fMnhmQUE8x8t",
+    "tags": ["Web Development", "React", "JavaScript"],
+    "links": {
+      "medium": "https://betterprogramming.pub/why-eslint-hates-your-useeffect-dependencies-react-js-560fcac0b1f?sk=0df70d8f483092fc596245e3c58307b9"
+    }
+  },
+  {
+    "date": "Nov 24, 2019",
+    "title": "This restroom isn't for me",
+    "subtitle": "What's the deal with male and female restrooms",
+    "url": "https://bikashpaneru.medium.com/this-restroom-isnt-for-me-eda3cef4f95f",
+    "image": "https://miro.medium.com/max/1000/1*oKEYPwxmp1PCnBJt_qnngw.jpeg",
+    "tags": ["Life"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/this-restroom-isnt-for-me-eda3cef4f95f"
+    }
+  },
+  {
+    "date": "Jun 13, 2019",
+    "title": "Flip a coin",
+    "subtitle": "A coin flip simulator using WebGL",
+    "url": "https://mrdivinemaniac.github.io/flip-a-coin/",
+    "image": "images/flip-a-coin.png",
+    "tags": ["Projects", "JavaScript"],
+    "links": {
+      "github": "https://github.com/mrdivinemaniac/flip-a-coin",
+      "demo": "https://mrdivinemaniac.github.io/flip-a-coin/"
+    }
+  },
+  {
+    "date": "Nov 27, 2018",
+    "title": "Code Review? Who has the time for that?",
+    "subtitle": "Why you should make time for code reviews",
+    "url": "https://blog.usejournal.com/code-review-who-has-the-time-for-that-9f0c002a1bff",
+    "image": "https://miro.medium.com/max/500/1*PyTu-JWSEBHr6prX2k0WSA.jpeg",
+    "tags": ["Software Development"],
+    "links": {
+      "medium": "https://blog.usejournal.com/code-review-who-has-the-time-for-that-9f0c002a1bff"
+    }
+  },
+  {
+    "date": "Nov 6, 2018",
+    "title": "Weird School Punishments",
+    "subtitle": "Yeah! My school was weird!",
+    "url": "https://bikashpaneru.medium.com/weird-childhood-punishments-1ca760f9e00",
+    "image": "https://miro.medium.com/max/1400/0*HtnoJtZIQpAnqTL5",
+    "tags": ["Life"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/weird-childhood-punishments-1ca760f9e00"
+    }
+  },
+  {
+    "date": "Jun 4, 2018",
+    "title": "Debugging Life",
+    "subtitle": "What if fixing problems in life was as simple as fixing software bugs",
+    "url": "https://bikashpaneru.medium.com/debugging-life-b50a21088d45",
+    "image": "https://miro.medium.com/max/1400/0*g3ndvKZ_qk4NdvMX",
+    "tags": ["Life", "Software Development"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/debugging-life-b50a21088d45"
+    }
+  },
+  {
+    "date": "May 6, 2018",
+    "title": "How Piracy got me into Coding",
+    "subtitle": "🏴‍☠️",
+    "url": "https://bikashpaneru.medium.com/how-piracy-got-me-into-coding-32280f64f338",
+    "image": "https://miro.medium.com/max/1400/0*BCNP0BWsY53wE6ci",
+    "tags": ["Life", "Software Development"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/how-piracy-got-me-into-coding-32280f64f338"
+    }
+  },
+  {
+    "date": "May 2, 2018",
+    "title": "The One Where the Perverts ruined Holi",
+    "subtitle": "The state of Holi in Nepal is humiliating",
+    "url": "https://bikashpaneru.medium.com/the-one-where-the-perverts-ruined-holi-3d0759a17310",
+    "image": "https://miro.medium.com/max/700/0*YX9OXK7cUbWc2b1g",
+    "tags": ["Life"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/the-one-where-the-perverts-ruined-holi-3d0759a17310"
+    }
+  },
+  {
+    "date": "Feb 26, 2018",
+    "title": "Words of a Frustrated Cryptocurrency Enthusiast",
+    "subtitle": "The real reasons cryptocurrencies exist",
+    "url": "https://bikashpaneru.medium.com/words-of-a-frustrated-cryptocurrency-enthusiast-a84f47fdb632",
+    "image": "https://miro.medium.com/max/700/1*LLFNMWINmuM8twOSMLBZiA.jpeg",
+    "tags": ["Cryptocurrency"],
+    "links": {
+      "medium": "https://bikashpaneru.medium.com/words-of-a-frustrated-cryptocurrency-enthusiast-a84f47fdb632"
+    }
+  }
 ]
