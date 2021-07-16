@@ -9,14 +9,20 @@
   <div class="posts-list-item" data-tags="{{tags}}">
     <div>
       <a href={{url}} target="_blank">
-        <img class="posts-list-item-image " src={{image}} />
+      {{#if image}}
+        <img class="posts-list-item-image" src={{image}} />
+      {{/if}}
       </a>
+
     </div>
-    <div>
+    <div class="posts-list-item-content">
+      {{#if date}}
+        <time class="posts-list-item-date">{{date}}</time>
+      {{/if}}
       <h3 class='posts-list-item-title'>
         <a href={{url}} target="_blank">{{title}}</a>
       </h3>
-      <p>{{subtitle}}</p>
+      <p class='posts-list-item-subtitle'>{{subtitle}}</p>
       {{#if tags}}
       <div class='posts-list-item-tags'>
         {{#each tags}}
