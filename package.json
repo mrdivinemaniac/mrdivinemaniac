@@ -1,0 +1,18 @@
+{
+  "name": "bloggocase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -w src -e hbs,css,json,js ./build",
+    "build": "node build.js"
+  },
+  "author": "mrdivinemaniac",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
