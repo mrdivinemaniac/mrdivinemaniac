@@ -1,0 +1,17 @@
+<header class="layout-header">
+  <div class="layout-container layout-header-content">
+    <div class="layout-header-branding">
+      <h1 class="layout-header-logo"> {{meta.emojiLogo}} </h1>
+      <div>
+        <h1 class="layout-header-title">
+          {{meta.title}}
+        </h1>
+        <div> {{meta.subtitle}} </div>
+      </div>
+    </div>
+    <div class="layout-header-socials">
+      <div> <strong> Find Me On </strong> </div>
+      {{>social-links links=socials}}
+    </div>
+  </div>
+</header>

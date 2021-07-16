@@ -1,0 +1,19 @@
+.layout {
+  min-height: 100vh;
+}
+
+.layout-header {
+  user-select: none;
+  padding: 1rem;
+  background-color: #dd6e42;
+  color: #ffffff;
+}
+
+.layout-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.layout-main {
+  padding: 0 1rem;
+}
