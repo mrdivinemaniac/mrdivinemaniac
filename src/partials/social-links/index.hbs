@@ -1,0 +1,11 @@
+{{#each links}}
+  {{#if (equalsCaseInsensitive @key 'github')}}
+    <div> {{>social-github href=this}} </div>
+  {{else}}
+    {{#if (equalsCaseInsensitive @key 'medium')}}
+      <div> {{>social-medium href=this}} </div>
+    {{else}}
+      <div> {{>social-generic href=this name=@key}} </div>
+    {{/if}}
+  {{/if}}
+{{/each}}

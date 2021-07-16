@@ -1,0 +1,11 @@
+.social-generic {
+  display: inline-flex;
+  text-transform: capitalize;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.social-generic > img {
+  width: 1rem;
+  height: 1rem;
+}
