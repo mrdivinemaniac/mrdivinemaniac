@@ -39,24 +39,67 @@
 </section>
 
 <script>
-  const allNavigationTags = document.querySelectorAll('.posts-navigation-tag')
-  allNavigationTags.forEach(tag => tag.addEventListener('click', navigationTagClickListener))
+  (function () {
+    var allNavigationTags = document.querySelectorAll('.posts-navigation-tag')
+    allNavigationTags.forEach(tag => tag.addEventListener('click', navigationTagClickListener))
 
-  function navigationTagClickListener (e) {
-    const tagName = e.target.dataset.name
-    filterPostsWithTag(tagName)
-  }
+    var allPosts = Array.from(document.querySelectorAll('.posts-list-item'))
 
-  function filterPostsWithTag (tag) {
-    const allPosts = document.querySelectorAll('.posts-list-item')
-    allPosts.forEach(post => {
-      const tags = (post.dataset.tags || '').split(',')
-      if (!tag || tags.includes(tag)) {
-        post.style.display = '';
-      } else {
-        post.style.display = "none";
+    function navigationTagClickListener (e) {
+      var tagName = e.target.dataset.name
+      queueFilterPost(tagName || null)
+    }
+
+    function playHideAnim (posts, cb) {
+      posts.forEach(post => {
+        post.style.opacity = 0;
+        post.style.maxHeight = 0;
+        post.style.margin = 0;
+        post.style.overflow = 'hidden';
+      })
+      setTimeout(cb, 500)
+    }
+
+    function playShowAnim (posts, cb) {
+      posts.forEach(post => {
+        post.style.opacity = 1;
+        post.style.maxHeight = '';
+        post.style.margin = '';
+      })
+      setTimeout(cb, 500)
+    }
+
+    var filterQueue = []
+    var filtering = false
+
+    function queueFilterPost (tag) {
+      filterQueue.push(tag)
+      if (filtering) return
+      runNextFilterQueueTask()
+    }
+
+    function runNextFilterQueueTask () {
+      const nextTag = filterQueue.shift()
+      if (nextTag === undefined) {
+        filtering = false
+        return
       }
-    })
-  }
+      filtering = true
+      filterPostsWithTag(nextTag, function () {
+        runNextFilterQueueTask()
+      })
+    }
 
+    function filterPostsWithTag (tag, cb) {
+      var postsToShow = tag
+        ? allPosts.filter(function (post) {
+          var tags = (post.dataset.tags || '').split(',')
+          return tags.includes(tag)
+        }) : allPosts
+
+      playHideAnim(allPosts, function () {
+        playShowAnim(postsToShow, cb)
+      })
+    }
+  })()
 </script>
