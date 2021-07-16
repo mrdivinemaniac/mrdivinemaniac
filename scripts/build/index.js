@@ -1,7 +1,7 @@
 const {
   DIRS,
   FILE_AND_FOLDER_NAMES
-} = require('./config')
+} = require('../../config')
 const path = require('path')
 const { loadPartials } = require('./partials')
 const { copyFilesFromDirRecursively, stitchFilesWithExtensionsRecursively, mkDirIfNotExists } = require('./files')

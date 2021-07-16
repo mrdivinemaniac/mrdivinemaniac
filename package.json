@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -w src -e hbs,css,json,js ./build",
-    "build": "node build.js"
+    "dev": "nodemon -w src -e hbs,css,json,js scripts/build",
+    "build": "node scripts/build"
   },
   "author": "mrdivinemaniac",
   "license": "ISC",

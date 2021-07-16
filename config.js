@@ -1,6 +1,6 @@
 const path = require('path')
 
-const PROJECT_ROOT_DIR = path.join(__dirname,  '../')
+const PROJECT_ROOT_DIR = __dirname
 const SRC_DIR = path.join(PROJECT_ROOT_DIR, 'src')
 const BUILD_DST = path.join(PROJECT_ROOT_DIR, 'docs')
 const STATIC_SRC = path.join(SRC_DIR, 'static')
