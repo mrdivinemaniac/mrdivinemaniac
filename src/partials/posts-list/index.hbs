@@ -1,0 +1,56 @@
+<div class="posts-navigation">
+  <span class="posts-navigation-tag"> All </span>
+  {{#each tags}}
+    <span class="posts-navigation-tag" data-name="{{this}}"> {{this}} </span>
+  {{/each}}
+</div>
+<section class="posts-list">
+  {{#each posts}}
+  <div class="posts-list-item" data-tags="{{tags}}">
+    <div>
+      <a href={{url}} target="_blank">
+        <img class="posts-list-item-image " src={{image}} />
+      </a>
+    </div>
+    <div>
+      <h3 class='posts-list-item-title'>
+        <a href={{url}} target="_blank">{{title}}</a>
+      </h3>
+      <p>{{subtitle}}</p>
+      {{#if tags}}
+      <div class='posts-list-item-tags'>
+        {{#each tags}}
+          <span class="posts-navigation-tag" data-name="{{this}}"> {{this}} </span>
+        {{/each}}
+      </div>
+      {{/if}}
+      <div class="post-links">
+        {{>post-links links=links}}
+      </div>
+    </div>
+  </div>
+  {{/each}}
+</section>
+
+<script>
+  const allNavigationTags = document.querySelectorAll('.posts-navigation-tag')
+  allNavigationTags.forEach(tag => tag.addEventListener('click', navigationTagClickListener))
+
+  function navigationTagClickListener (e) {
+    const tagName = e.target.dataset.name
+    filterPostsWithTag(tagName)
+  }
+
+  function filterPostsWithTag (tag) {
+    const allPosts = document.querySelectorAll('.posts-list-item')
+    allPosts.forEach(post => {
+      const tags = (post.dataset.tags || '').split(',')
+      if (!tag || tags.includes(tag)) {
+        post.style.display = '';
+      } else {
+        post.style.display = "none";
+      }
+    })
+  }
+
+</script>
