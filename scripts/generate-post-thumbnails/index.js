@@ -1,4 +1,4 @@
-const { DIRS, FILE_AND_FOLDER_NAMES } = require('../../build/config')
+const { DIRS, FILE_AND_FOLDER_NAMES } = require('../../config')
 const path = require('path')
 const sharp = require('sharp')
 const request = require('request')
@@ -40,7 +40,7 @@ async function generateForPostIfRequired (post) {
     return
   }
   if (post.thumbnail) {
-    const thumbnailPath = path.join(GENERATED_THUMBNAILS_DST, post.thumbnail)
+    const thumbnailPath = path.join(DIRS.STATIC_SRC, post.thumbnail)
     if (checkFileExists(thumbnailPath)) {
       console.log(` > Thumbnail already exists. Skipping...`)
       return
