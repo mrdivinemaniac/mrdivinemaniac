@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -w src -e hbs,css,json,js scripts/build",
+    "dev": "DEV=1 nodemon -w src -e hbs,css,json,js scripts/build",
     "build": "node scripts/build"
   },
   "author": "mrdivinemaniac",

@@ -1,8 +1,10 @@
 const path = require('path')
 
+const isDev = Boolean(process.env.DEV)
+
 const PROJECT_ROOT_DIR = __dirname
 const SRC_DIR = path.join(PROJECT_ROOT_DIR, 'src')
-const BUILD_DST = path.join(PROJECT_ROOT_DIR, 'docs')
+const BUILD_DST = path.join(PROJECT_ROOT_DIR, isDev ? 'dev' : 'docs')
 const STATIC_SRC = path.join(SRC_DIR, 'static')
 
 const FILE_AND_FOLDER_NAMES = {
@@ -21,7 +23,7 @@ const DIRS = {
   BUILD_DST: BUILD_DST,
   PAGES_SRC: path.join(SRC_DIR, 'pages'),
   STATIC_SRC: STATIC_SRC,
-  STATIC_DST: path.join(SRC_DIR, '../docs'),
+  STATIC_DST: BUILD_DST,
   STATIC_IMAGES_SRC: path.join(STATIC_SRC, FILE_AND_FOLDER_NAMES.STATIC_IMAGES),
   COMMON_PARTIALS: path.join(SRC_DIR, 'partials')
 }
