@@ -1,5 +1,20 @@
 [
   {
+    "date": "Jul 20, 2021",
+    "title": "What Makes Modern Web Development Frustrating",
+    "subtitle": "And why is it this way?",
+    "url": "https://javascript.plainenglish.io/what-makes-modern-web-development-frustrating-92d696ae1da3?sk=09cfa3ad0efec75522cec0fc67652506",
+    "image": "https://miro.medium.com/max/700/1*tTNqW3DxVVnlKP4Xz9ZQ5g.png",
+    "tags": [
+      "Web Development",
+      "JavaScript"
+    ],
+    "links": {
+      "medium": "https://javascript.plainenglish.io/what-makes-modern-web-development-frustrating-92d696ae1da3?sk=09cfa3ad0efec75522cec0fc67652506"
+    },
+    "thumbnail": "images/resized/f9cbde5125af6223.jpg"
+  },
+  {
     "date": "Jul 16, 2021",
     "title": "🐕 BloggoCase",
     "subtitle": "The source code for this website. IKR! So Meta!",
