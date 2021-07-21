@@ -1,5 +1,19 @@
 [
   {
+    "date": "Jul 21, 2021",
+    "title": "Introducting Divine's Learn Log",
+    "subtitle": "I decided to use Instagram as free hosting to keep a log of the calisthenics skills that I am trying to learn.",
+    "url": "https://www.instagram.com/divines.learn.log/",
+    "tags": [
+      "Projects",
+      "Fitness"
+    ],
+    "links": {
+      "instagram": "https://www.instagram.com/divines.learn.log/"
+    },
+    "thumbnail": "images/divines-learn-log.jpg"
+  },
+  {
     "date": "Jul 20, 2021",
     "title": "What Makes Modern Web Development Frustrating",
     "subtitle": "And why is it this way?",
